@@ -11,9 +11,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-4b3sc2r6@*l&2xgxo)52r&4@67k9a^i$wpz=#=-c2tovyekp)z'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['taskproject.pythonanywhere.com']
+ALLOWED_HOSTS = ['taskproject.pythonanywhere.com', '127.0.0.1']
 
 
 # Application definition
@@ -117,3 +117,6 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+TIME_ZONE = "UTC"  
+USE_TZ = True  
