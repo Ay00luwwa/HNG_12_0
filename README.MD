@@ -15,3 +15,6 @@ This is a simple Django API that returns basic information in JSON format.
 https://hng.tech/hire/python-developers
 
 
+## Endpoint url 
+
+https://taskproject.pythonanywhere.com/api/info/
